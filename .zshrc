@@ -1,8 +1,8 @@
 # Aliases
-source .zsh_aliases
+source ~/zsh_configs/.zsh_aliases
 
 # Plugins
-source plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/zsh_configs/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # ENV variables
-source .zshenv
+source ~/zsh_configs/.zshenv
