@@ -5,3 +5,8 @@
 ```sh
 cd ~; git clone --recurse-submodules git@github.com:namnguyen191/zsh_configs.git; source ~/zsh_configs/.zshrc
 ```
+
+Use sym link afterward so that the config is automatically load everytime we start a new shell:
+```sh
+ln -s ~/zsh_configs/.zshrc ~/.zshrc
+```
