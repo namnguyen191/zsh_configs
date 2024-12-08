@@ -1,0 +1,10 @@
+[user]
+	name = Nam Nguyen
+	email = hoangnamnguyen191@gmail.com
+[core]
+	editor = code --wait
+[http]
+	postBuffer = 524288000
+[alias]
+	coa = !git add -A && git commit -m
+  pr = !git push -u origin HEAD
